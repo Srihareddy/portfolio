@@ -177,32 +177,6 @@ body{
   font-size:14px;
   color:var(--text-muted);
 }
-/*contact*/
-.about-left.contact-icons{
-  display: flex;
-  gap: 14px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 12px;
-}
-
-.about-left .contact-icons {
-  display: flex;
-  gap: 14px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 12px;
-}
-
-
-.about-left.contact-icons img.icon{
-  width: 28px !important;
-  height: 28px !important;
-  max-width: 28px !important;
-  max-height: 28px !important;
-  object-fit: contain;
-  display: block;
-}
 
 
 .about-right{
@@ -268,10 +242,11 @@ body{
   transition:transform .2s ease, box-shadow .2s ease;
 }
 
-.edu-exp-item .item-content a:hover img{
+.edu-exp-item > a:hover > img{
   transform:scale(1.06);
   box-shadow:var(--shadow-hover);
 }
+
 
 /* PROJECTS */
 .projects-container{
