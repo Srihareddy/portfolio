@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Projects — Sriha Reddy Ettireddy</title>
+
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+
+  <header class="top-header">
+    <div class="header-inner">
+      <div class="site-name">Sriha Reddy Ettireddy</div>
+      <nav class="top-nav">
+        <a href="portfolio.html#projects">Home</a>
+        <a href="https://github.com/Srihareddy?tab=repositories" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="projects-container">
+    <h1>All Projects</h1>
+    <p class="contact-text">Auto-loaded from my GitHub repositories.</p>
+
+    <div class="allproj-controls">
+      <input id="search" class="allproj-search" placeholder="Search projects..." />
+      <label class="allproj-toggle">
+        <input id="hideForks" type="checkbox" checked />
+        Hide forks
+      </label>
+      
+
+    </div>
+
+    <div id="status" class="allproj-status">Loading projects…</div>
+    <div id="projectsList" class="projects-grid"></div>
+  </main>
+  <script src="all-projects.js"></script>
+</body>
+</html>
