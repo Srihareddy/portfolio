@@ -178,7 +178,7 @@ body{
   color:var(--text-muted);
 }
 /*contact*/
-.contact-icons{
+.about-left.contact-icons{
   display: flex;
   gap: 14px;
   justify-content: center;
@@ -186,13 +186,13 @@ body{
   margin-top: 12px;
 }
 
-.contact-icons a{
+.about-left.contact-icons a{
   display: inline-flex;
   align-items: center;
   justify-content: center;
 }
 
-.contact-icons img.icon{
+.about-left.contact-icons img.icon{
   width: 28px !important;
   height: 28px !important;
   max-width: 28px !important;
