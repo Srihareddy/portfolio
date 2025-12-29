@@ -178,24 +178,29 @@ body{
   color:var(--text-muted);
 }
 /*contact*/
-.contact-icons {
-  margin-top: 15px;
+.contact-icons{
   display: flex;
-  gap: 18px;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.contact-icons a{
+  display: inline-flex;
+  align-items: center;
   justify-content: center;
 }
 
-.contact-icons img {
-  width: 28px;
-  height: 28px;
-  transition: transform 0.2s ease, opacity 0.2s ease;
-  cursor: pointer;
+.contact-icons img.icon{
+  width: 28px !important;
+  height: 28px !important;
+  max-width: 28px !important;
+  max-height: 28px !important;
+  object-fit: contain;
+  display: block;
 }
 
-.contact-icons img:hover {
-  transform: scale(1.15);
-  opacity: 0.8;
-}
 
 .about-right{
   padding-top:40px;
