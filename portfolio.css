@@ -186,11 +186,14 @@ body{
   margin-top: 12px;
 }
 
-.about-left.contact-icons a{
-  display: inline-flex;
-  align-items: center;
+.about-left .contact-icons {
+  display: flex;
+  gap: 14px;
   justify-content: center;
+  align-items: center;
+  margin-top: 12px;
 }
+
 
 .about-left.contact-icons img.icon{
   width: 28px !important;
@@ -253,7 +256,7 @@ body{
   margin-bottom:18px;
 }
 
-.edu-exp-item .item-content a img{
+.edu-exp-item > a > img{
   width:42px;
   height:42px;
   object-fit:contain;
@@ -631,3 +634,18 @@ body{
     justify-content:flex-end;
   }
 }
+
+.about-left .contact-icons a img.icon {
+  width: 28px !important;
+  height: 28px !important;
+  max-width: 28px !important;
+  max-height: 28px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  object-fit: contain !important;
+}
+
